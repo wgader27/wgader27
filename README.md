@@ -1,26 +1,27 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=220&section=header&text=Wahel&fontSize=60&animation=fadeIn&fontAlignY=38&desc=Web%20Development%20%2F%20Student&descAlignY=51&descAlign=62)
 
 ```cs
-public class Profile {
+using System.Collections.Generic; 
 
-    private string info = "Web Developper, Student";
+public class Profile
+{
+    private string info = "Web Developer, Student";
+    private List<string> languages = new List<string>
+    {
+        // Prog languages
+        "HTML/CSS", "JavaScript", "C", "C++", "C#", "Python3","Bash",
 
-    private Vector<string> languages {
-        # Prog langages
-        "HTML/CSS", "JavaScript", "C", "C++", "C#" "Python3","Bash",
+        // Others (Framework, libraries)
+        "Next.js", ".NET MAUI", "Arduino",
 
-        # Others (Framework, libraries)
-        "Nextjs", ".NET MAUI", "Arduino",
+        // Database
+        "MySQL", "PostgreSQL"
+    };
 
-        # Database
-        "MySQL", "PostGreSql"
-    }
-
-
-    public Profile(string info, Vector<string> languages) {
+    public Profile(string info, List<string> languages)
+    {
         this.info = info;
         this.languages = languages;
     }
-
 }
 ```
