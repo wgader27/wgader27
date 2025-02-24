@@ -9,10 +9,10 @@ public class Profile
     private List<string> languages = new List<string>
     {
         // Prog languages
-        "HTML/CSS", "JavaScript", "C", "C++", "C#", "Python3","Bash",
+        "HTML/CSS", "JavaScript", "PHP", "C", "C++", "C#", "Python3","Bash",
 
         // Others (Framework, libraries)
-        "Next.js", ".NET MAUI", "Arduino",
+        "Reactjs","Next.js", ".NET MAUI", "Arduino",
 
         // Database
         "MySQL", "PostgreSQL"
