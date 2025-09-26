@@ -12,7 +12,7 @@ public class Profile
         "HTML/CSS", "JavaScript", "PHP", "C", "C++", "C#", "Python3","Bash",
 
         // Others (Framework, libraries)
-        "Reactjs","Next.js", ".NET MAUI", "Arduino",
+        "Reactjs", "Symfony", "Next.js", ".NET MAUI", "Arduino",
 
         // Database
         "MySQL", "PostgreSQL"
