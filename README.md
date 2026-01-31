@@ -8,14 +8,14 @@ public class Profile
     private string info = "Web Developer, Student";
     private List<string> languages = new List<string>
     {
-        // Prog languages
-        "HTML/CSS", "JavaScript", "PHP", "C", "C++", "C#", "Python3","Bash",
+        // Frontend
+        "HTML/CSS","TailwindCss", "Sass", "JavaScript","TypeScript", "React", "Nextjs", ".NET MAUI", 
 
-        // Others (Framework, libraries)
-        "Reactjs", "Symfony", "Next.js", ".NET MAUI", "Arduino",
-
+        //Backend
+        "PHP", "Symfony", "Nodejs", "C", "C++", "C#", "Python", "Bash", "Arduino",
+        
         // Database
-        "MySQL", "PostgreSQL"
+        "MySQL", "PostgreSQL", "Prisma" 
     };
 
     public Profile(string info, List<string> languages)
